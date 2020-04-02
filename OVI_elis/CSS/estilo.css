@@ -1,0 +1,80 @@
+.navegar ul{
+    
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu li  :hover{
+    color: royalblue;
+    transition: all .2s;
+}
+/*submenu*/
+.sublectura{
+    position: absolute;
+    background: #F47920;
+    display: none;
+    width: 390px;
+}
+.sublectura >li >a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+.menu :hover .sublectura{
+    display: block;
+}
+.subvideos{
+    position: absolute;
+    background: #F47920;
+    display: none;
+    width: 280px;
+}
+.subvideos > li > a{
+    color: white;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu  :hover .subvideos{
+    display: block;
+}
+body{
+    background-color: #838383;
+    color: black;
+}
+nav,header,.contenedor,footer{
+    max-width: 90%;
+    margin: auto;
+}
+nav{
+    background-color: #F47920;
+}
+header{
+    background-color:   #005883;
+
+}
+.contenedor{
+    background-color: #F47920;
+    ;
+}
+footer{
+    background-color:   #50B748;  
+}
+.central{
+    background-color:#F0B429  ;
+    
+}
+.imagen_principal{
+    display:block ;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 45%;
+    
+}
