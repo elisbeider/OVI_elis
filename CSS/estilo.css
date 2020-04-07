@@ -46,9 +46,16 @@
     display: block;
 }
 body{
-    background-color: #838383;
+    background-color: white;
     color: black;
 }
+h1{
+    font-size: 40px;
+    color: white;
+    margin: 0px 20px;
+}
+
+
 nav,header,.contenedor,footer{
     max-width: 90%;
     margin: auto;
@@ -62,20 +69,31 @@ header{
 }
 .contenedor{
     background-color: #F47920;
-    ;
+   
+    
 }
 footer{
     background-color:   #50B748;  
+  
 }
+
+
 .central{
     background-color:#F0B429  ;
     
 }
+.central article h3 {
+    margin: 0px 20px;
+}
+
 .imagen_principal{
-    display:block ;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 45%;
+    height: 300px;
+  
+    /*margin-left: auto;
+    margin-right: auto;*/
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 50px;
     
 }
 .lectura_1{
@@ -97,6 +115,10 @@ margin: 0px 50px;
 }
 .video_1{
 height: 500px;
-width: 1000px;
-margin: 0px 100px;
+width: 1020px;
+margin: 30px 90px;
+}
+.reco{
+    background-color:#F47920 ;
+    margin: 0px 65px;
 }
