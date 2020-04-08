@@ -77,13 +77,25 @@ footer{
   
 }
 
-
 .central{
     background-color:#F0B429  ;
     
 }
 .central article h3 {
     margin: 0px 20px;
+    
+}
+
+.central article h4{
+    height: 50px;
+    width: 1140px;
+    margin: 0px 20px;
+    text-align: center;
+    background-color: rgb(245, 152, 12);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px
+
 }
 
 .imagen_principal{
@@ -96,23 +108,33 @@ footer{
     background-size: 50px;
     
 }
-.lectura_1{
-height: 800px;
-width: 1100px;
-margin: 0px 50px;
+
+.lectura1{
+    height: 2000px;
+    width: 1100px;
+    margin: 0px 50px;
+    text-align: center;
 
 }
-.lectura_2{
-height: 800px;
-width: 1100px;
-margin: 0px 50px;
+.centra{
+    background-color:rgb(245, 165, 16)  ;
+    height: 2000px;
+    width: 1100px;
+    margin: 0px 50px;
+    text-align: center;
 }
-.lectura_3{
-height: 800px;
-width: 1100px;
-margin: 0px 50px;
 
+.imagen_principa{
+    height: 150px;
+  
+    /*margin-left: auto;
+    margin-right: auto;*/
+    max-width: 70%;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    
 }
+
 .video_1{
 height: 500px;
 width: 1020px;
