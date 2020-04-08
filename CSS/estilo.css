@@ -81,7 +81,6 @@ footer{
     background-color:   #50B748;  
   
 }
-
 .central{
     background-color:#F0B429  ;
     
@@ -90,9 +89,6 @@ footer{
     margin: 0px 20px;
     
 }
-
-
-
 .imagen_principal{
     height: 300px;
   
@@ -103,23 +99,30 @@ footer{
     background-size: 50px;
     
 }
-
-.lectura1{
-    height: 2000px;
-    width: 1100px;
-    margin: 0px 50px;
-    text-align: center;
-
-}
 .centra{
-    background-color:rgb(245, 230, 16)  ;
-    height: 1200px;
-    width: 900px;
+    background-color:rgb(247, 231, 16)  ;
+    height: 1150px;
+    width: 1000px;
     margin: 0px 50px;
     text-align: center;
 }
-
-
+.centrado{
+    background-color:rgb(8, 209, 182)  ;
+    height: 1050px;
+    width: 1000px;
+    margin: 0px 50px;
+    text-align: center;
+}
+.contened{
+    background-color: rgb(105, 156, 243);
+    text-align: center;
+    
+}
+.contenidon{
+    background-color:  rgb(105, 156, 243);    
+    height: 20px;
+    
+}
 .imagen_principa{
     height: 200px;
   
