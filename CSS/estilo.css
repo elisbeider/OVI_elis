@@ -102,14 +102,14 @@ footer{
 .centra{
     background-color:rgb(247, 231, 16)  ;
     height: 1150px;
-    width: 1000px;
+    width: 1050px;
     margin: 0px 50px;
     text-align: center;
 }
 .centrado{
     background-color:rgb(8, 209, 182)  ;
-    height: 1050px;
-    width: 1000px;
+    height: 1100px;
+    width: 1050px;
     margin: 0px 50px;
     text-align: center;
 }
@@ -122,6 +122,11 @@ footer{
     background-color:  rgb(105, 156, 243);    
     height: 20px;
     
+}
+.contenido1{
+    background-color:  rgb(105, 156, 243);    
+    height: 50px;
+    text-align: center;
 }
 .imagen_principa{
     height: 200px;
