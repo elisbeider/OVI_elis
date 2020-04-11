@@ -1,0 +1,168 @@
+*{
+   /*margin: 0px;
+    padding: 0px;*/
+}
+.menu_i{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    margin: 0px 20px;
+}
+.menu_i li{
+    
+    position: relative;
+    display: inline-block;
+}
+.menu_i li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu_i li  :hover{
+    color: royalblue;
+    transition: all .2s;
+}
+.menu_i :hover .sublectura{
+    display: block;
+}
+.menu_i :hover .subvideos{
+    display: block;
+}
+.navegar{
+    background-color: #F47920;
+    border-radius: 60px;
+}
+.navegar ul{
+    
+    list-style: none;
+}
+header{
+    background: linear-gradient(white 0%,#005883 100%);
+}
+
+.sublectura{
+    position: absolute;
+    background: #F47920;
+    display: none;
+    width: 320px;
+    
+}
+.sublectura >li >a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+}
+.menu :hover .sublectura{
+    display: block;
+}
+.subvideos{
+    position: absolute;
+    background: #F47920;
+    display: none;
+    width: 320px;
+}
+
+.menu  :hover .subvideos{
+    display: block;
+}
+.imagen_principal{
+    height: 300px;
+  
+    /*margin-left: auto;
+    margin-right: auto;*/
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    
+}
+.subvideos li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+#contenedor{
+    width: 825px;
+    height: 200px;
+    float: left;
+    background: #F0B429;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+ h3{
+    margin: 20px;  
+}
+ p{
+    margin: 15px;  
+}
+h2{
+    margin: 20px;
+}
+h4{
+    margin: 15px;  
+}
+aside{
+    width: 500px;
+    height: 200px;
+    background-color: #A54686;
+    margin-top: 0px;
+    float: right;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+footer{
+    
+    background:#50B748;
+    clear: both;
+  
+}
+/* redes sociales*/
+header div{
+    position: fixed;
+    right: 10px;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 30px;
+    
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: 7.rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon-facebook2{
+    background: #2E406E;
+}
+.icon-twitter{
+background: #339dc5;
+}
+.icon-instagram{
+background: #3f60a5;
+}
+.icon-youtube{
+background: #e8302b;
+}
+.icon :first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon :last-child{
+    border-radius: 0 0 0 1rem;
+}
+.icon :hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgb( 0, 0, 0, 42);
+}

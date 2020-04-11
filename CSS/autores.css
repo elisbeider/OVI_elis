@@ -2,11 +2,13 @@
     
     list-style: none;
 }
+.menu ul li{
+    list-style: none;
+}
 .menu > li{
     position: relative;
     display: inline-block;
 }
-
 .menu > li > a {
     text-decoration: none;
     display: block;
@@ -28,8 +30,10 @@
 .sublectura >li >a{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px 20px;
+    padding: 5px 5px;
+    text-decoration: none;
 }
+
 .menu :hover .sublectura{
     display: block;
 }
@@ -38,12 +42,13 @@
     background: #F47920;
     display: none;
     width: 320px;
+
 }
 .subvideos > li > a{
-    text-decoration: none;
     color: white;
     padding: 10px 20px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 .menu  :hover .subvideos{
     display: block;
@@ -151,3 +156,68 @@ margin: 30px 90px;
     background-color:#F47920 ;
     margin: 0px 65px;
 }
+ul li a{
+    text-decoration: none;
+}
+/* sobre los hautores*/
+#categorias{
+    width: 600px;
+   height: auto;overflow: hidden;
+    border: 0px solid;
+    margin-top: 10px;
+
+
+}
+.cero{
+    margin-left: 65px;
+    margin-right: 5px;
+    background:springgreen;
+}
+.uno{
+    width: 382px;
+    height: auto;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 5px;
+    
+}
+.dos{
+    margin-left: 5px;
+    margin-right: 5px;
+    background: pink;
+    
+}
+.tres{
+    margin-left: 5px;
+    margin-right: 20px;
+    background: mediumslateblue;
+}
+.cuatro{
+    margin-left: 260px;
+    margin-right: 5px;
+background: palegreen;
+}
+.cinco{
+    margin-left: 5px;
+    margin-right: 5px;
+    background: lightsteelblue;
+}
+footer{
+clear: both;
+
+}
+h4{
+    margin: 15px;
+}
+p{
+    margin: 15px;
+}
+ h2{
+     margin: 3px;
+     margin-left: 65px;
+     background: #F0B429;
+     width: 1200px;
+     color: white;
+     background-size: 50px;
+ }
+ 
